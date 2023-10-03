@@ -1,0 +1,11 @@
+<!ELEMENT collectionCars (cars*)>
+<!ATTLIST cars continent CDATA #REQUIRED>
+<!ELEMENT cars (car*)>
+<!ELEMENT car (country*, brand*, model*, color*, specs*)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT specs (horsepower*, torque*)>
+<!ELEMENT horsepower (#PCDATA)>
+<!ELEMENT torque (#PCDATA)>

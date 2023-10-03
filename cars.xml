@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collectionCars SYSTEM "proyect_cars.dtd">
+
+<collectionCars>
+    <cars continent="Asian">
+        <car>
+            <country>japan</country>
+            <brand>Nissan</brand>
+            <model>Skyline R34</model>
+            <color>Midnight Purple</color>
+            <specs>
+                <horsepower>310 hp</horsepower>
+                <torque>289 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <country>North Corea</country>
+            <brand>Hyundai</brand>
+            <model>i30 N</model>
+            <color>Performance Blue</color>
+            <specs>
+                <horsepower>280 hp</horsepower>
+                <torque>392 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <country>South Corea</country>
+            <brand>Kia</brand>
+            <model>Rio GT</model>
+            <color>Aurora Black</color>
+            <specs>
+                <horsepower>120 hp</horsepower>
+                <torque>200 lb</torque>
+            </specs>
+        </car>
+    </cars>
+    <cars continent="European">
+        <car>
+            <country>Italy</country>
+            <brand>Alfa Romeo</brand>
+            <model>Giulia Quadrifoglio</model>
+            <color>Montreal Green</color>
+            <specs>
+                <horsepower>520 hp</horsepower>
+                <torque>600 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <country>Germany</country>
+            <brand>Audi</brand>
+            <model>RS3 Sportback</model>
+            <color>Turbo Blue</color>
+            <specs>
+                <horsepower>400 hp</horsepower>
+                <torque>500 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <country>France</country>
+            <brand>Renault</brand>
+            <model>Clio Williams</model>
+            <color>Monaco Blue</color>
+            <specs>
+                <horsepower>200 hp</horsepower>
+                <torque>129 lb</torque>
+            </specs>
+        </car>
+    </cars>
+    <cars continent="US">
+        <car>
+            <brand>Chevrolet</brand>
+            <model>Corvette C8</model>
+            <color>Accelerate Yellow Metallic</color>
+            <specs>
+                <horsepower>520 hp</horsepower>
+                <torque>600 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <brand>Ford</brand>
+            <model>GT40</model>
+            <color>Signal Flare Red</color>
+            <specs>
+                <horsepower>492 hp</horsepower>
+                <torque>475 lb</torque>
+            </specs>
+        </car>
+        <car>
+            <brand>Dodge</brand>
+            <model>Hellcat Redeye</model>
+            <color>Octane Red</color>
+            <specs>
+                <horsepower>797 hp</horsepower>
+                <torque>707 lb</torque>
+            </specs>
+        </car>
+    </cars>
+</collectionCars>
