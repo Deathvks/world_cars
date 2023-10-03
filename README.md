@@ -1,93 +1,45 @@
-# Project Title
+# World Cars
 
-One Paragraph of the project description
-
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
-
+Different cars around de world. In this project you will be able to see different cars from the different continents of the world, and their specifications.
 ## Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+Check our ".xml" file to see the information. You can also check our ".dtd" file to see its structure.
 
-### Prerequisites
+### What to see
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+The first thing you will see will be cars from the Asian continent and their respective characteristics.
 
-### Installing
+For example, some notable cars from Asia:
 
-A step by step series of examples that tell you how to get a development
-environment running
+    Nissan, Hyundai and Kia.
 
-Say what the step will be
+Or from the European continent:
 
-    Give the example
+    Alfa Romeo, Audi and Renault.
 
-And repeat
+To see more, go through the files mentioned above!
 
-    until finished
+## Contents of the ".dtd" file
 
-End with an example of getting some data out of the system or using it
-for a little demo
+In the ".dtd" file you will be able to see in an orderly or structured manner the information that we have put in the ".xml" file. Where you can also get an idea of ​​the contents that we have put in the ".xml" file in a cleaner way.
 
-## Running the tests
+Examples:
 
-Explain how to run the automated tests for this system
+    <!ELEMENT car (country*, brand*, model*, color*, specs*)>
+## Bibliography
+To carry out this work we have watched this series of videos:
 
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+- [How to Integrate GIT BASH into Visual Studio Code](https://youtu.be/EVh36sDppcs?si=pM5ONhjMAK5o0oav)
+- [GitHub](https://github.com)  references to learn how to upload files.
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+The authors of this project are:
+- Dylan  - 1 CFGS DAW
+- Aimar - 1 CFGS DAW
 
 ## License
 
 This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
 Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
 details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
